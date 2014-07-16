@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,700|Open+Sans+Condensed:300,300italic,700);
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../../../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -1406,10 +1407,10 @@ html {
 
 /* line 27, ../../../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #333333;
+  color: #141414;
   background-color: white;
 }
 
@@ -1517,7 +1518,7 @@ hr {
 /* line 10, ../../../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: "Open Sans Condensed";
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -2010,7 +2011,7 @@ pre {
   line-height: 1.428571429;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333333;
+  color: #141414;
   background-color: whitesmoke;
   border: 1px solid #cccccc;
   border-radius: 4px;
@@ -3427,7 +3428,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: inherit;
-  color: #333333;
+  color: #141414;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -3900,7 +3901,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #545454;
 }
 
 @media (min-width: 768px) {
@@ -4405,14 +4406,14 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.428571429;
-  color: #333333;
+  color: #141414;
   white-space: nowrap;
 }
 
 /* line 77, ../../../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: #070707;
   background-color: whitesmoke;
 }
 
@@ -6058,7 +6059,7 @@ a.badge:hover, a.badge:focus {
 /* line 27, ../../../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_thumbnails.scss */
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #141414;
 }
 
 /* line 36, ../../../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_thumbnails.scss */
@@ -6798,7 +6799,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 /* line 6, ../../../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading {
-  color: #333333;
+  color: #141414;
   background-color: whitesmoke;
   border-color: #dddddd;
 }
@@ -6809,7 +6810,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 /* line 14, ../../../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading .badge {
   color: whitesmoke;
-  background-color: #333333;
+  background-color: #141414;
 }
 /* line 20, ../../../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
@@ -8032,4 +8033,96 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 7, ../sass/styles.sass */
+a {
+  color: #428bca;
+  border-radius: 1px;
+  padding: 2px;
+  margin-left: -2px;
+}
+/* line 13, ../sass/styles.sass */
+a:hover, a:focus {
+  text-decoration: none;
+  color: white;
+  background: #428bca;
+}
+
+/* line 19, ../sass/styles.sass */
+.topbar {
+  min-height: 2em;
+}
+
+/* line 22, ../sass/styles.sass */
+.main {
+  position: relative;
+  overflow: hidden;
+  background: url(../public/images/asia.jpg) no-repeat 0 0;
+  background-size: cover;
+  height: 150px;
+  padding: 10em;
+}
+@media (min-width: 992px) {
+  /* line 22, ../sass/styles.sass */
+  .main {
+    min-height: 30em;
+    background: url(../public/images/asia.jpg) no-repeat 0 -220px;
+    background-size: cover;
+  }
+}
+
+/* line 35, ../sass/styles.sass */
+.subtitle h1 {
+  font-size: 42px;
+  margin-bottom: 6px;
+}
+
+/* line 39, ../sass/styles.sass */
+.subtext {
+  border-bottom: 1px solid #141414;
+  margin-bottom: 3em;
+}
+/* line 43, ../sass/styles.sass */
+.subtext h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+/* line 47, ../sass/styles.sass */
+dt.area {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* line 51, ../sass/styles.sass */
+dd {
+  margin-top: 2px;
+}
+
+/* line 54, ../sass/styles.sass */
+footer {
+  margin-top: 3em;
+  font-size: 12px;
+  padding-bottom: 2em;
+}
+
+/* line 59, ../sass/styles.sass */
+dl.company {
+  margin-bottom: 2px;
+  font-weight: 700;
+}
+
+/* line 63, ../sass/styles.sass */
+dd.tel {
+  margin-top: 0.4em;
+}
+
+/* line 66, ../sass/styles.sass */
+.no {
+  margin-left: 3em;
+}
+
+/* line 69, ../sass/styles.sass */
+.no:first-child {
+  margin-left: 0;
 }
